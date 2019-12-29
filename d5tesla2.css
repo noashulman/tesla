@@ -1,0 +1,390 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+.photo{
+height: 100vh;
+width:100vw;
+background-image: url('https://www.tesla.com/ns_videos/homepage/main_hero_homepage_desktop.jpg');
+background-size:cover;
+position:relative
+
+}
+
+.menu {
+    background:none;
+    padding:10px;
+    vertical-align: middle;
+    /* border:1px solid red; */
+    text-align: center;
+    position: relative;
+    
+    width:100%;
+    
+    top:0;
+    display:inline-block;
+
+}
+
+.menu-items{
+    text-align: center;
+    display:inline-block;
+} 
+
+.menu-text{
+    color:#ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:14px;
+    text-decoration: none;
+    text-align: center;
+    padding:10px;
+
+}
+    
+
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    color:#ffffff;
+    padding:20px;
+       
+}
+
+.content{
+    /* border:2px yellow solid; */
+    height:80vh;
+    vertical-align: middle;
+    position: relative;
+
+}
+
+.buttons{
+    /* border:2px green solid; */
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    height:10vh;
+    vertical-align: middle;
+    
+}
+
+.large-buttons {
+    /* border:purple 2px solid; */
+    height:2vh;
+    /* padding:0;
+    vertical-align: bottom; */
+    position: relative;
+    top:10px;
+    
+}
+
+.custom-order-mobile a{
+    display:none;
+}
+
+.existing-inventory-mobile a{
+    display:none;
+}
+
+.custom-order{
+    vertical-align: middle;
+    border:2px solid #ffffff;
+    width:250px;
+    height: 40px;
+    border-radius:25px;
+    margin:10px;
+    background-color: #ffffff;
+    color:#171A20;
+    text-align: center;
+    
+}
+.existing-inventory{
+    vertical-align: middle;
+    border:2px#ffffff solid;
+    width:250px;
+    height: 40px;
+    border-radius:25px;
+    margin:10px;
+    background-color: none;
+    text-align: center;
+    
+}
+
+.custom-order a {
+    text-decoration: none;
+    color:#171A20;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:10px 60px;
+   
+}
+
+.existing-inventory a{
+    text-decoration: none;
+    color:#ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:10px 40px;
+  
+}
+
+.existing-inventory a:hover{
+    color:#171A20;
+    
+}
+
+.existing-inventory:hover{
+    background-color: #ffffff;
+}
+
+.visit{
+    /* border:2px green solid; */
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    height:50%;
+    vertical-align: middle;
+    position: relative;
+    top:1.5rem;
+}
+
+
+
+.visit-button{
+    color:#ffffff;
+    text-underline-position: under;
+}
+
+.visit-button:hover{
+    border-bottom: 2px solid #ffffff;
+
+}
+
+.visit-mobile{
+    display:none;
+}
+.menu img.tesla-logo{
+    display:inline-block;
+    position:absolute;
+    left:10px;
+    
+    
+}
+.ham img {
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    right: 2px;
+    top: 8px;
+
+}
+
+.circle div{
+    /* border:orangered 1 px solid; */
+    display:flex;
+    justify-content: center;
+    height:10vh;
+    width:100%;
+    text-decoration: none;
+   
+
+}
+
+/* .circle {
+    border:orangered 1 px solid;
+    height:10vh;
+} */
+
+.controls{
+    text-align: center;
+    padding:10px;
+    height:10%;
+    /* border:black 1px solid; */
+    width:100%;
+
+}
+
+
+.controls .btn {
+    color:#ffffff;
+    text-decoration:none;
+    text-align:center;
+    font-size:40px;
+
+}
+
+.controls-mobile{
+    visibility:hidden;
+}
+
+p{
+    text-align: center;
+    color:#ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:14px;
+}
+@media screen and (max-width:576px){
+
+    .menu-text{
+       display:none;
+    
+    }
+    .large-buttons {
+      display:none;
+        
+    }
+     
+    .custom-order{
+        display:none;
+    }
+
+    .existing-inventory{
+        display:none;
+    }
+
+    .buttons-mobile{
+        /* border:2px white solid; */
+        display:block;  
+        text-align: right;
+        /* justify-content:middle; */
+        padding:10px;
+        height:20vh;
+        
+        
+    }
+
+    .buttons-mobile div {
+        text-align: -webkit-center ;
+        vertical-align: middle ;
+        
+        
+    }
+    
+    .large-buttons-mobile {
+        /* border:purple 2px solid; */
+        height:2vh;
+        /* padding:0;
+        vertical-align: bottom; */
+        position: relative;
+        top:10px;
+        
+    }
+    
+    .custom-order-mobile{
+        vertical-align: middle;
+        border:2px solid #ffffff;
+        width:400px;
+        height: 40px;
+        border-radius:25px;
+        margin:10px;
+        background-color: #ffffff;
+        color:#171A20;
+        text-align: center;
+        
+    }
+    .existing-inventory-mobile{
+        vertical-align: middle;
+        border:2px#ffffff solid;
+        width:400px;
+        height: 40px;
+        border-radius:25px;
+        margin:10px;
+        background-color: none;
+        text-align: center;
+    }
+    .custom-order-mobile a {
+        text-decoration: none;
+        color:#171A20;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding:10px 60px;
+       
+    }
+
+    .custom-order-mobile a{
+        display:inline;
+    }
+    
+    .existing-inventory-mobile a{
+        display:inline;
+    }
+    
+    .existing-inventory-mobile a{
+        text-decoration: none;
+        color:#ffffff;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding:10px 120px;
+      
+    }
+    .existing-inventory-mobile a:hover{
+            color:#171A20;
+            
+        }
+        
+    .existing-inventory-mobile:hover{
+            background-color: #ffffff;
+        }
+
+    .visit-button{
+        display:none;
+        }
+
+    .visit-mobile{
+        /* border:2px green solid; */
+        display:inline;
+        justify-content: middle;
+        padding:0px;
+        height:20%;
+        vertical-align: middle;
+        position: relative;
+        text-align: -webkit-center;
+        }
+
+    div .visit-mobile {
+        text-align: -webkit-center;
+        font-size:14px;
+       
+    }
+
+    div .visit-mobile a{
+        color:#ffffff;
+        text-underline-position: under;
+    }
+
+    div .visit-mobile a:hover{
+        border-bottom: 2px solid #ffffff;
+    }
+    .visitastore-mobile { 
+        
+        text-align:-webkit-center;
+    }
+
+    .visit-button-mobile{
+        
+        text-align: center;
+    }
+
+    .controls{
+        visibility: hidden;
+    }
+    .controls-mobile{
+        visibility:visible;
+        text-align: center;
+    }
+
+    .controls-mobile .btn{
+        color:#ffffff;
+        text-decoration: none;
+        font-size:40px;
+    }
+
+    p{
+        color:#171A20;
+    }
+    
+
+}
+
