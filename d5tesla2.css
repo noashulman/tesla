@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     /* height: 4rem; */
-    padding: 0 0 6vh 0;
+    height: 10vh;
 
 }
 
@@ -72,13 +72,9 @@ h1{
 
 .content{
     /* border:2px yellow solid; */
-    height:50%;
+    height: 90vh;
     vertical-align: middle;
-<<<<<<< HEAD
-    
-=======
     /* position: relative; */
->>>>>>> 3ca30c464d84ee48ffcc353548a0318fae6ac7a3
 
 }
 
