@@ -18,7 +18,8 @@
     padding: 16px;
     display: flex;
     justify-content: space-between;
-    height: 6rem;
+    /* height: 4rem; */
+    padding: 0 0 6vh 0;
 
 }
 
@@ -43,6 +44,7 @@
 
 a.menu-text:hover{
     color:#D1D3D8;
+    
 }
 .menu img.tesla-logo{
     padding:16px;  
