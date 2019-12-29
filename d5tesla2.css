@@ -17,7 +17,12 @@
 .menu {
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     height: 6rem;
+=======
+    /* height: 4rem; */
+    height: 10vh;
+>>>>>>> 77872423e2e148037cb79a5b8ac837300bfc623b
 
 }
 
@@ -70,7 +75,7 @@ h1{
 
 .content{
     /* border:2px yellow solid; */
-    height:50%;
+    height: 90vh;
     vertical-align: middle;
     /* position: relative; */
 
