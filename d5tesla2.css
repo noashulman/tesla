@@ -2,15 +2,16 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    
+    letter-spacing: -0.6px;
+    font-family: "HeiT ASC Traditional Chinese", "M Hei PRC W45", "AXIS Font Japanese W55", "FB New Gothic", Swissra, "Gotham Medium", system, sans-serif;;
 }
 
 .photo{
-height: 100vh;
-width:100vw;
-background-image: url('https://www.tesla.com/ns_videos/homepage/main_hero_homepage_desktop.jpg');
-background-size:cover;
-position:relative
+    height: 100vh;
+    width:100vw;
+    background-image: url('https://www.tesla.com/ns_videos/homepage/main_hero_homepage_desktop.jpg');
+    background-size:cover;
+    position:relative
 
 }
 
@@ -32,11 +33,16 @@ position:relative
 .menu-items{
     text-align: center;
     display:inline-block;
+    font-weight: 400;
+    size:14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 10px;
+
 } 
 
 .menu-text{
     color:#ffffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:14px;
     text-decoration: none;
     text-align: center;
@@ -49,7 +55,6 @@ position:relative
 h1{
     font-size: 32px;
     font-weight: bold;
-    font-family: monospace;
     text-align: center;
     color:#ffffff;
     padding:20px;
@@ -119,7 +124,6 @@ h1{
 .custom-order a {
     text-decoration: none;
     color:#171A20;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding:10px 60px;
    
 }
@@ -127,7 +131,6 @@ h1{
 .existing-inventory a{
     text-decoration: none;
     color:#ffffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding:10px 40px;
   
 }
@@ -224,7 +227,6 @@ h1{
 p{
     text-align: center;
     color:#ffffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:14px;
 }
 @media screen and (max-width:576px){
@@ -299,7 +301,6 @@ p{
     .custom-order-mobile a {
         text-decoration: none;
         color:#171A20;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         padding:10px 60px;
        
     }
@@ -315,7 +316,6 @@ p{
     .existing-inventory-mobile a{
         text-decoration: none;
         color:#ffffff;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         padding:10px 120px;
       
     }
