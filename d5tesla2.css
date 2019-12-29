@@ -16,19 +16,19 @@
 }
 .menu {
     padding: 16px;
-    text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 6rem;
 
 }
 
 .menu-items{
-    text-align: center;
-    display:inline-block;
     font-weight: 400;
-    size:14px;
     color: rgba(255, 255, 255, 0.5);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
 
 } 
 
@@ -36,15 +36,28 @@
     color:#ffffff;
     font-size:14px;
     text-decoration: none;
-    text-align: center;
-    padding:10px;
+    align-items: center;
+    padding:16px;
 
 }
 
 a.menu-text:hover{
     color:#D1D3D8;
 }
-    
+.menu img.tesla-logo{
+    padding:16px;  
+}
+
+.ham-logo {
+    width: 22px;
+
+}
+.ham{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
 
 
 h1{
@@ -60,7 +73,11 @@ h1{
     /* border:2px yellow solid; */
     height:50%;
     vertical-align: middle;
+<<<<<<< HEAD
     
+=======
+    /* position: relative; */
+>>>>>>> 3ca30c464d84ee48ffcc353548a0318fae6ac7a3
 
 }
 
@@ -165,21 +182,7 @@ h1{
 .visit-mobile{
     display:none;
 }
-.menu img.tesla-logo{
-    display:inline-block;
-    position:absolute;
-    left:10px;
-    
-    
-}
-.ham img {
-    height: 22px;
-    width: 22px;
-    position: absolute;
-    right: 2px;
-    top: 8px;
 
-}
 
 .circle div{
     /* border:orangered 1 px solid; */
