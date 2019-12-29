@@ -14,19 +14,10 @@
     position:relative
 
 }
-
 .menu {
-    background:none;
-    padding:10px;
-    vertical-align: middle;
-    /* border:1px solid red; */
+    padding: 16px;
     text-align: center;
-    position: relative;
-    
-    width:100%;
-    
-    top:0;
-    display:flex;
+    display: flex;
     justify-content: center;
 
 }
@@ -36,9 +27,7 @@
     display:inline-block;
     font-weight: 400;
     size:14px;
-    line-height: 18px;
     color: rgba(255, 255, 255, 0.5);
-    margin: 0 10px;
 
 } 
 
