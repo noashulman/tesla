@@ -25,7 +25,8 @@ position:relative
     width:100%;
     
     top:0;
-    display:inline-block;
+    display:flex;
+    justify-content: center;
 
 }
 
@@ -227,7 +228,7 @@ p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:14px;
 }
-@media screen and (max-width:576px){
+@media screen and (max-width:850px){
 
     .menu-text{
        display:none;
